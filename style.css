@@ -1,0 +1,40 @@
+
+/* Universal box sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Main page styling */
+body {
+    font-family: Chalkduster, fantasy;
+    background-color: #F5E6A5;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Profile card styling */
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: #FFF9E8;
+    border: 4px solid #388F88;
+    border-radius: 12px;
+}
+
+/* Heading styling */
+.card h1 {
+    font-family: Chalkduster, fantasy;
+    color: #286F6B;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+.card p {
+    font-family: Chalkduster, fantasy;
+    color: #344B46;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
